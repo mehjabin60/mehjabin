@@ -27,9 +27,6 @@ span{
 
 section{
     display: flex;
-    background-image: url(top-benner.png);
-background-repeat: no-repeat;
-    
 }
 
 .half{
@@ -45,10 +42,13 @@ background-repeat: no-repeat;
     background-image: linear-gradient(#007acc,#23a9f2);
     color:white;
     font-weight: 700;
-    margin-left: 40px;
+    margin: 40px;
 
 }
-
+.bennar{
+background-image: url(top-benner.png);
+background-repeat: no-repeat;
+}
 p{
     margin-left: 40px;
 }
