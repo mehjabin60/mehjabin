@@ -1,17 +1,57 @@
 body{
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    
+    
 }
 .mehjabin{
     font-size: 45px;
     color: #007acc;
+    margin-left: 40px;
 }
 
 .welcome{
     font-size: 45px;
     color: rgb(20, 19, 20);
+    margin-left: 40px;
+    
+
 }
 
 
 span{
     color: rgb(20, 19, 20);
+    
+
+}
+
+section{
+    display: flex;
+    background-image: url(top-benner.png);
+background-repeat: no-repeat;
+    
+}
+
+.half{
+    width: 50%;
+
+}
+
+.button{
+    text-decoration: none;
+    background-color: #007acc;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(#007acc,#23a9f2);
+    color:white;
+    font-weight: 700;
+    margin-left: 40px;
+
+}
+
+p{
+    margin-left: 40px;
+}
+h3{
+    margin-left: 40px;
 }
